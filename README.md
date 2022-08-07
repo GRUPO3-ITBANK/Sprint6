@@ -42,9 +42,9 @@ con los siguientes requerimientos de consulta frecuente.
 
 - Crear una vista con las columnas id, numero sucursal, nombre, apellido, DNI
 y edad de la tabla cliente calculada a partir de la fecha de nacimiento
-o Mostrar las columnas de los clientes, ordenadas por el DNI de menor
+- Mostrar las columnas de los clientes, ordenadas por el DNI de menor
 a mayor y cuya edad sea superior a 40 años
-o Mostrar todos los clientes que se llaman “Anne” o “Tyler” ordenados
+- Mostrar todos los clientes que se llaman “Anne” o “Tyler” ordenados
 por edad de menor a mayor
 - Dado el siguiente JSON. Insertar 5 nuevos clientes en la base de datos y
 verificar que se haya realizado con éxito la inserción
@@ -130,14 +130,14 @@ necesario crear una tabla denominada “auditoria_cuenta” para guardar los
 datos movimientos, con los siguientes campos: old_id, new_id, old_balance,
 new_balance, old_iban, new_iban, old_type, new_type, user_action,
 created_at
-o Crear un trigger que después de actualizar en la tabla cuentas los
+- Crear un trigger que después de actualizar en la tabla cuentas los
 campos balance, IBAN o tipo de cuenta registre en la tabla auditoria
-o Restar $100 a las cuentas 10,11,12,13,14
+- Restar $100 a las cuentas 10,11,12,13,14
 - Mediante índices mejorar la performance la búsqueda de clientes por DNI
 - Crear la tabla “movimientos” con los campos de identificación del
 movimiento, número de cuenta, monto, tipo de operación y hora
-o Mediante el uso de transacciones, hacer una transferencia de 1000$
+- Mediante el uso de transacciones, hacer una transferencia de 1000$
 desde la cuenta 200 a la cuenta 400
-o Registrar el movimiento en la tabla movimientos
-o En caso de no poder realizar la operación de forma completa, realizar
+- Registrar el movimiento en la tabla movimientos
+- En caso de no poder realizar la operación de forma completa, realizar
 un ROLLBACK# Sprint6
