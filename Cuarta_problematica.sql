@@ -116,6 +116,4 @@ INSERT INTO movimientos (movimiento_num_cta,movimiento_monto
 VALUES (400,1000,'transferencia +',time('now'));
 
 COMMIT;
-
-END TRANSACTION;
 --En caso de no poder realizar la operación de forma completa, realizar un ROLLBACK
