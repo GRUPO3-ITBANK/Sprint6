@@ -2,7 +2,7 @@
 SELECT branch_name AS Sucursal, CAST (count(cliente.branch_id) AS INTEGER) AS Cant_clientes
 FROM cliente 
 LEFT JOIN sucursal ON sucursal.branch_id = cliente.branch_id
-GROUP BY cliente.branch_id ORDER BY Cant_clientes DESC;
+GROUP BY sucursal ORDER BY Cant_clientes DESC;
 
 --Obtener la cantidad de empleados por cliente por sucursal en un número real
 SELECT s.branch_id,
